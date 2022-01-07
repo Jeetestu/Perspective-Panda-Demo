@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7701565631030568551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3163696821137102109}
+  - component: {fileID: 2006536423875994094}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3163696821137102109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701565631030568551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.003541, y: -0.69263077, z: -0.6352583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2006536423875994094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701565631030568551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13e0986b523f334dac20ad457e418cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starPlanePrefab: {fileID: 5437356340802736117, guid: aaa9b2a670fc2e641a34ced67dca9fdd,
+    type: 3}
+  starLight: {fileID: 21300000, guid: 247d7f25fe81dbe449eb60af64999170, type: 3}
+  starDark: {fileID: 21300000, guid: da8881543a04a1541aade26680027001, type: 3}
+  starDarkUIColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0.41960785}
+  starLightUIColor: {r: 1, g: 1, b: 1, a: 1}
+  starUnlockEffect: {fileID: 7837981036117917646, guid: 9c048d080f902754ea1ca238b8104c8b,
+    type: 3}
+  groundFolder: {fileID: 4283175681428607512, guid: 2a0a989e61b4e4d4da94b178ef633e98,
+    type: 3}
+  perspectiveManager: {fileID: 2847477825723101679, guid: 41b667d34ce71fd459b32e4bb1eb1ca8,
+    type: 3}
+  scaleManager: {fileID: 3854741623560569330, guid: d81a62c3248f14e46a500812c9467581,
+    type: 3}
+  audioManager: {fileID: 5198360271397879368, guid: 93fdc30a509e694429224b47bd865dd4,
+    type: 3}
+  levelManager: {fileID: 6966594095266912419, guid: 6c143cffa90f43447b806dc299a855cb,
+    type: 3}
+  transitionManager: {fileID: 6435706991920821935, guid: df8caeb051e075f41b32b1039ceffa8a,
+    type: 3}
+  pathfindingManager: {fileID: 4581513965544887610, guid: ce680cfd0e9fdb041b327ccfc6c0738f,
+    type: 3}
+  MainLevelCanvas: {fileID: 4628708295884273291, guid: e42999f5a29b20244b4d3cf64fd470b9,
+    type: 3}
+  cameraParent: {fileID: 2413237983778332265, guid: 87c64e00e0cf14b428e51e89887c34ba,
+    type: 3}
+  warningCubePrefab: {fileID: 7654129866900968018, guid: 260e3467d1488a34293402c62a372bf2,
+    type: 3}
+  cameraFollower: {fileID: 8571779130872495760, guid: 28510aafc2a528c4395f3da0d9799d9d,
+    type: 3}
+  skins:
+  - starsRequired: 0
+    animalPrefab: {fileID: 1798410034550930, guid: 51c0ca09eaee4e8f9789350a7056e358,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1042753228856018, guid: 638583a177564da19f00393d12d53375,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1916075801608800, guid: 855279fbf71944a9bea4564012b0eef2,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1514781368367630, guid: d13ce7ccf91b4953b5dd864e3b497f2a,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1795941953813262, guid: b8c53b8156d345fda2ba96b7855e2178,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1277140579145558, guid: b705f1fe9b73488692d4e7e6c758d71c,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1813571009131466, guid: 56381cfa46e44335a689e99f2cf49b4c,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1458080912806766, guid: 1f7d832dd4d847fe9e6177ba21bcaf64,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1572907694970512, guid: 222a9957848349d596dea861db7f8c0c,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1131385415324142, guid: 398894842e7343b8812bd64f5f04681e,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1373778854063832, guid: d1550db979cf450dbbc5dd5744e3749f,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1464386534553952, guid: 8d50d2dff98648b3ac395f6eb2dd207e,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1748003504462306, guid: 1a3bc5505a4b4238a4bcdb7ada5b2db6,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1748003504462306, guid: 1a3bc5505a4b4238a4bcdb7ada5b2db6,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1748003504462306, guid: 1a3bc5505a4b4238a4bcdb7ada5b2db6,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1748003504462306, guid: 1a3bc5505a4b4238a4bcdb7ada5b2db6,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1748003504462306, guid: 1a3bc5505a4b4238a4bcdb7ada5b2db6,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1748003504462306, guid: 1a3bc5505a4b4238a4bcdb7ada5b2db6,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1748003504462306, guid: 1a3bc5505a4b4238a4bcdb7ada5b2db6,
+      type: 3}
+  - starsRequired: 0
+    animalPrefab: {fileID: 1748003504462306, guid: 1a3bc5505a4b4238a4bcdb7ada5b2db6,
+      type: 3}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 87dae67392b86b3479891eedb5af0821
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level01.unity
+    guid: cfd2ba00a0f4e584884b91f13d6cafd4
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level02.unity
+    guid: 5936025e23d00da4e99a8e99298124b9
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level03.unity
+    guid: 0c37e5ed702e3fd42a109478404521fe
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level04.unity
+    guid: 687e6dd8f54db424abb503d25219287f
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level05.unity
+    guid: 68869aeb943a5df48b7e11bcf1ea1c38
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level06.unity
+    guid: c242c7ba91fecdd49ab54e774e3ada79
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level7.unity
+    guid: fee96f29db9439b41b3dd1696c9c1e77
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level8.unity
+    guid: f3e9b70d37aa022489824349ef868221
+  - enabled: 1
+    path: Assets/Scenes/Remastered/level9.unity
+    guid: 3ce2095a437d1824babaddb288562029
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level10.unity
+    guid: 1ae041b9a04dc7a4884d769a8fb59c65
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level11.unity
+    guid: bcdf31a54f08b0f4190505346bbf66ed
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level12.unity
+    guid: 85a1014e63b014c4a8ea52ec0f59404b
+  - enabled: 1
+    path: Assets/Scenes/Remastered/Level13.unity
+    guid: 716daa72f8d263443acd47a4d85f1355
+  - enabled: 1
+    path: Assets/Scenes/Remastered/TestLevel14.unity
+    guid: 92fa6557e8ddeb544be0b68baa0273a0
+  m_configObjects: {}
